@@ -7,6 +7,12 @@
         "yiisoft/yii2": "2.0.*",
         "talesoft/tale-pug": "~1.5.1"
     },
+    "keywords": [
+        "yii2",
+        "pug",
+        "view",
+        "renderer"
+    ],
     "license": "MIT",
     "authors": [
         {
