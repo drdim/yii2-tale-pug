@@ -1,0 +1,37 @@
+{
+    "name": "drdim/yii2-tale-pug",
+    "description": "Yii2 Extention for tale-pug php template engine",
+    "type": "yii2-extention",
+    "require": {
+        "php": ">=5.5.0",
+        "yiisoft/yii2": "2.0.*",
+        "talesoft/tale-pug": "~1.5.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "drdim",
+            "email": "dr.dim.pro@gmail.com",
+            "homepage": "https://drdim.ru/"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "drdim\\pug\\": ""
+        }
+    },
+    "support": {
+        "issues": "https://github.com/drdim/yii2-tale-pug/issues",
+        "source": "https://github.com/drdim/yii2-tale-pug"
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        },
+        "branch-alias": {
+            "dev-master": "master"
+        }
+    }
+}
