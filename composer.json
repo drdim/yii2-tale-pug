@@ -2,10 +2,24 @@
     "name": "drdim/yii2-tale-pug",
     "description": "Yii2 Extention for tale-pug php template engine",
     "type": "yii2-extention",
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "drdim/tale-pug",
+                "version": "1.5.1",
+                "source": {
+                    "url": "https://github.com/drdim/tale-pug",
+                    "type": "git",
+                    "reference": "master"
+                }
+            }
+        }
+    ],
     "require": {
         "php": ">=5.5.0",
         "yiisoft/yii2": "2.0.*",
-        "talesoft/tale-pug": "~1.5.1"
+        "drdim/tale-pug": "~1.5.1"
     },
     "keywords": [
         "yii2",
