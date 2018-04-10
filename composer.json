@@ -5,7 +5,7 @@
     "require": {
         "php": ">=5.5.0",
         "yiisoft/yii2": "2.0.*",
-        "talesoft/tale-pug": "~1.5.1"
+        "talesoft/tale-pug": "~1.5.2"
     },
     "keywords": [
         "yii2",
